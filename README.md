@@ -5,11 +5,7 @@
 
 This is a random forest machine learning model with a new feature set combined with the standard composition features such as Magpie descriptors for effective space group prediction for inorganic materials. 
 
-If you find our software is useful, please cite it as:<br >
-
-#### Yuxin Li, Rongzhi Dong, Wenhui Yang, Jianjun Hu*, Crystal Systems and Space Groups Prediction of Inorganic Materials Using Machine Learning
-
-Developed in 2021.4-30 at <br />
+Developed in 2021.4-2 at <br />
 School of Mechanical Engineering<br />
 Guizhou University, Guiyang, China <br />
 
