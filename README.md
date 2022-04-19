@@ -1,4 +1,4 @@
-## Crystal Systems and Space Groups Prediction of Inorganic Materials Using Machine Learning
+## Power Factor Prediction of Thermoelectric Materials Using Machine Learning
 
 
 ## Premise
@@ -54,52 +54,3 @@ git clone https://github.com/Yuxinya/SG_predict
 cd SG_predict
 pip install -e .
 ```
-
-Pre-trained models are stored in google drive. Download the file `model.zip` from from the [figshare](https://figshare.com/s/62da0bce61e4ff038bf7). After downing the file, copy it to `SG_predict` and extract it. the `model` folder should be in the `SG_predict` directory after the extraction is completed. If you do not do this, the model can only make claccification by providing the crystal system information.
-## Example Use
-
-In order to test your installation you can run the following example from your `SG_predict` directory:
-
-```sh
-cd /path/to/SG_predict/
-python predict.py -i full_formula -s crystal_system
-
-for example:
-python predict.py -i Zn24Si24Bi16O96 -s cubic
-python predict.py -i Zn24Si24Bi16O96
-```
-
-The following cyrstal_system values are accepted
-```
-crystal     # crystal system unknown. 
-cubic
-hexagonal
-trigonal
-tetragonal
-orthorhombic
-monoclinic
-triclinic
-```
-
-You can also use this algorithm to train, test and predict data
-```sh
-cd /path/to/SG_predict/
-python predict.py -data the data you provideed -type train, test or predict
-
-for example:
-python model.py -data data/train.csv -type train
-python model.py -data data/test.csv -type test
-python model.py -data data/predict.csv -type predict
-```
-The following .csv format are accepted for train and test
-|formula       |space_group    |
-|--------------|---------------|
-|Na8Al6Si6S1O28|     195       |
-|Na4Cl4O12     |      198      |
-
-
-The following .csv format are accepted for predict
-|formula       |
-|--------------|
-|Na8Al6Si6S1O28|
-|Na4Cl4O12     |
