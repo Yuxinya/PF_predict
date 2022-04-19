@@ -30,3 +30,15 @@ git clone https://github.com/Yuxinya/PF_predict
 cd PF_predict
 pip install -e .
 ```
+
+## Example Use
+
+In order to test your installation you can run the following example from your `PF_predict` directory:
+
+```sh
+cd /path/to/PF_predict/
+python predict.py -i formula 
+
+for example:
+python predict.py -i Zn24Si24Bi16O96
+```
