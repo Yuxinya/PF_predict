@@ -13,7 +13,7 @@ Guizhou University, Guiyang, China <br />
 To use this machine learning model, you need to create an environment with the correct dependencies. Using `Anaconda` this can be accomplished with the following commands:
 
 ```bash
-conda create --name SG_predict python=3.6
+conda create --name PF_predict python=3.6
 conda activate PF_predict
 conda install --channel conda-forge pymatgen
 pip install matminer
