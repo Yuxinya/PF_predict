@@ -26,7 +26,7 @@ Once you have setup an environment with the correct dependencies you can install
 
 ```bash
 conda activate PF_predict
-git clone https://github.com/Yuxinya/SG_predict
+git clone https://github.com/Yuxinya/PF_predict
 cd PF_predict
 pip install -e .
 ```
