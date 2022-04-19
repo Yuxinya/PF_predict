@@ -40,5 +40,5 @@ cd /path/to/PF_predict/
 python predict.py -i formula 
 
 for example:
-python predict.py -i Zn24Si24Bi16O96
+python predict.py -i Al16O24
 ```
